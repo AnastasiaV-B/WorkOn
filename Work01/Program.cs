@@ -26,11 +26,24 @@ void PrintArray(int[] array)
     int count = array.Length;
     for (int i = 0; i < count; i++)
     {
-        Console.Write($"{array[i]}");
+        Console.Write($"{array[i]}", "{,}");
     }
     Console.WriteLine();
 }
 
-int []arr=FirstArray(10);
+int[] arr = FirstArray(5);
 FillArray(arr);
 PrintArray(arr);
+
+
+// скопировать массив
+
+//int[] GetCopy(int arr)
+{
+    //for (int i = 0; i < length; i++)
+    {
+     //int[] newarr = Console.Write($"{arr[i]}");
+    }
+
+    //return newarr;
+}

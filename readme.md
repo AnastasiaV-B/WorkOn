@@ -8,5 +8,7 @@
 Программа для решения задачи с гирями.
 Оператор цикла. (треугольник серпинского)
 Палиндром.
-
+git remote add origin https://github.com/AnastasiaV-B/WorkOn.git
+git branch -M main
+git push -u origin main
 
